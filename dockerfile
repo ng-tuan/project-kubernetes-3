@@ -1,5 +1,5 @@
-# Use an official Python runtime as a parent image
-FROM python:3.12.0-slim
+#Python image
+FROM public.ecr.aws/docker/library/python:latest
 
 # Set the working directory to /app
 WORKDIR /app
