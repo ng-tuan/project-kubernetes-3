@@ -13,12 +13,5 @@ RUN pip install -r requirements.txt
 # Make port 5153 available to the world outside this container
 EXPOSE 5153
 
-# Environment variables
-ENV DB_USERNAME=myuser
-ENV DB_PASSWORD=mypassword
-ENV DB_HOST=127.0.0.1
-ENV DB_PORT=5433
-ENV DB_NAME=mydatabase
-
 # Run app.py when the container launches
 CMD ["python", "app.py"]
