@@ -1,9 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: postgresql-configmap
-data:
-  DB_NAME: mydatabase
-  DB_USER: myuser
-  DB_HOST: 10.100.41.159
-  DB_PORT: "5432"
